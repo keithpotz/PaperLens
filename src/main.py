@@ -1,7 +1,10 @@
 import json
 from pathlib import Path
+import sys
 
 import click
+
+sys.path.append(str(Path(__file__).resolve().parents))
 
 # Pipeline imports (implementations live in src/summarizer/)
 from summarizer.pdf_parser import parse_pdf

@@ -3,7 +3,6 @@ import importlib.util
 import sys
 
 def test_markdown_renderer_smoke():
-    # Dynamically import src/main.py as a module to access helpers
     repo = Path(__file__).resolve().parents[1]
     main_py = repo / "src" / "main.py"
 
@@ -15,15 +14,16 @@ def test_markdown_renderer_smoke():
     summary = {
         "title": "sample_paper",
         "sections": {
-            "abstract": "Stub: abstract summary.",
-            "background": "Stub: background summary.",
-            "methods": "Stub: methods summary.",
-            "results": "Stub: results summary.",
-            "conclusion": "Stub: conclusion summary.",
+            "abstract": "A short abstract. Sentence two.",
+            "background": "Background text.",
+            "methods": "Methods text.",
+            "results": "Results text.",
+            "conclusion": "Conclusion text.",
         },
-        "citations": ["[1] Smith et al., 2020", "[2] Doe, 2019"],
+        "citations": ["[1] Example ref"],
     }
 
-    md = mod._to_markdown(summary)  # noqa: SLF001 (accessing internal helper)
+    md = mod._to_markdown(summary)  # noqa: SLF001 (access internal helper)
     assert "# Summary: sample_paper" in md
     assert "## Abstract" in md
+    assert "## Citations" in md
