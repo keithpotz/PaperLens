@@ -89,38 +89,7 @@ Expected output (pre-alpha): stub summaries with placeholder texts and citations
 4. **Summarization**: Generate per-section summaries  
 5. **Export**: Save in Markdown, JSON, or HTML formats  
 
-# 🤝 Contributing to PaperLens
 
-First off, thank you for considering contributing to **PaperLens**!  
-Your help makes this project better for students, researchers, educators, and journalists everywhere.  
-
-We welcome all contributions — whether it's fixing bugs, improving documentation, or adding major new features.
-
----
-
-## 📋 How to Contribute
-
-1. **Fork** the repo on GitHub  
-2. **Clone** your fork locally  
-   ```bash
-   git clone https://github.com/<your-username>/paperlens.git
-   cd paperlens
-   ```
-3. Create a branch for your feature or fix:
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-4. Make your changes, following the coding styles below
-5. Commit your work with a clear message
- ```bash
-  git commit -m "Add feature: short description"
- ```
-6. Push your fork
-  ```bash
-git push origin feature/YourFeature
-  ```
-7. Open a pull request to the main branch of the repo!
 
 ## 🛠 Development Setup
 
