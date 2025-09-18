@@ -9,6 +9,7 @@ To keep PaperLens consistent and contributor-friendly, please follow these guide
 - Use **meaningful variable and function names**  
 - Prefer **pure functions** (avoid side effects when possible)  
 
+
 ### 📚 Documentation
 - Add **docstrings** for all public functions, classes, and modules  
 - Use Google-style or NumPy-style docstrings (consistent across the repo)  
