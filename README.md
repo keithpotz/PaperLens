@@ -1,5 +1,6 @@
 # PaperLens 🔍
 
+![Status](https://img.shields.io/badge/status-pre--alpha-orange)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![CI](https://github.com/keithpotz/paperlens/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/paperlens/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
