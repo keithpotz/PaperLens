@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+
+# PyInstaller
+*.spec
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints
+
+# macOS / Linux / Windows junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Coverage & test output
+.coverage
+coverage.xml
+htmlcov/
+.pytest_cache/
+
+# Local environment
+.env
