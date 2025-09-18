@@ -143,6 +143,11 @@ PaperLens is designed to be **extensible** so contributors can add functionality
 - Provide HTML/JSON schema for integration with web apps  
 
 ---
+## 🤝 Contributing
+
+Contributions are welcome! 🎉  
+Please see [CONTRIBUTING.md](CONTRIBUTING.md) for setup instructions, coding style, and how to get involved.
+---
 
 ## 🌟 Acknowledgments
 
