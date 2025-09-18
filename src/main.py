@@ -1,10 +1,13 @@
 import json
-from pathlib import Path
+from pathlib import Path as _Path
 import sys
+
+_SRC_DIR = _Path(__file__).resolve().parents[1] / "src"
+if str(_SRC_DIR) not in sys.path:
+    sys.path.insert(0, str(_SRC_DIR))
 
 import click
 
-sys.path.append(str(Path(__file__).resolve().parents))
 
 # Pipeline imports (implementations live in src/summarizer/)
 from summarizer.pdf_parser import parse_pdf
