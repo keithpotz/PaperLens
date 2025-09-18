@@ -1,0 +1,44 @@
+## 🎨 Coding Style
+
+To keep PaperLens consistent and contributor-friendly, please follow these guidelines:
+
+### 📝 General
+- Follow **PEP 8** style conventions  
+- Use **type hints** (`def func(x: str) -> int:`) wherever possible  
+- Keep functions and modules **small, focused, and testable**  
+- Use **meaningful variable and function names**  
+- Prefer **pure functions** (avoid side effects when possible)  
+
+### 📚 Documentation
+- Add **docstrings** for all public functions, classes, and modules  
+- Use Google-style or NumPy-style docstrings (consistent across the repo)  
+- Include examples where helpful  
+
+### 🔄 Commits
+- Write **clear, concise commit messages**  
+- Prefer [Conventional Commits](https://www.conventionalcommits.org/) (not mandatory):  
+  - `feat:` new feature  
+  - `fix:` bug fix  
+  - `docs:` documentation only  
+  - `test:` add or improve tests  
+  - `refactor:` code change that doesn’t affect behavior  
+  - `chore:` build/config changes  
+
+### 🧪 Testing
+- Add tests for any new feature or bug fix  
+- Keep tests deterministic (no randomness unless seeded)  
+- Run `pytest -q` locally before opening a pull request  
+
+### 🖋 Example
+```python
+def extract_references(text: str) -> list[str]:
+    """
+    Extracts reference entries from a paper's reference section.
+
+    Args:
+        text (str): Raw text of the References section.
+
+    Returns:
+        list[str]: A list of reference entries.
+    """
+    return [line.strip() for line in text.split("\n") if line.strip()]
