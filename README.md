@@ -1,7 +1,7 @@
 # PaperLens 🔍
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![CI](https://github.com/yourname/paperlens/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/paperlens/actions/workflows/ci.yml)
+[![CI](https://github.com/keithpotz/paperlens/actions/workflows/ci.yml/badge.svg)](https://github.com/yourname/paperlens/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -14,6 +14,11 @@
 - 🧑‍🤝‍🧑 Built for **students, researchers, educators, journalists**  
 
 ---
+
+> ⚠️ **PaperLens is currently in pre-alpha.**  
+> The CLI runs and produces placeholder summaries, but full PDF parsing and citation mapping are still in progress.  
+> Try it, star it ⭐, and help us build an open tool for research!
+
 
 ## ✨ Why PaperLens?
 
@@ -170,4 +175,18 @@ PaperLens is designed to be **extensible** so contributors can add functionality
 
 ---
 
+## 🌟 Acknowledgments
+
+PaperLens is made possible thanks to the open-source ecosystem and the research community.  
+Special thanks to:
+
+- 📰 **Researchers, students, and educators** who inspired the need for open, transparent tools  
+- 📑 [PyMuPDF](https://pymupdf.readthedocs.io/) and other libraries that make PDF parsing accessible  
+- 🧑‍🤝‍🧑 The **open-source community** for sharing tools, feedback, and contributions  
+- 💡 Everyone helping to make academic knowledge more approachable and equitable  
+
+---
+
+
 💡 **Tip:** If you’re looking for a good first issue, start with exporters or citation mapping — they’re modular and easy to test!
+
