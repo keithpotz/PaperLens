@@ -18,7 +18,7 @@ from summarizer.citation_mapper import map_citations
     default="md",
     help="Output format for the summary.",
 )
-@click.option(
+@click.option( 
     "--max-sents",
     type=click.IntRange(1, 10),
     default=3,
