@@ -42,3 +42,30 @@ def extract_references(text: str) -> list[str]:
         list[str]: A list of reference entries.
     """
     return [line.strip() for line in text.split("\n") if line.strip()]
+```
+## 🏷 Labels
+
+We use GitHub issue labels to help contributors find tasks quickly:
+
+- **good first issue** 🟢  
+  Beginner-friendly tasks that are small, well-defined, and easy to start with.  
+
+- **help wanted** 🟡  
+  Issues where we’d love extra community input or support.  
+
+- **enhancement** 🔵  
+  Requests for new features, improvements, or extensions to existing functionality.  
+
+- **bug** 🔴  
+  Something isn’t working as expected — includes reproducible errors, crashes, or incorrect behavior.  
+
+- **documentation** 📖  
+  Improvements or fixes to README, comments, or overall project docs.  
+
+- **discussion** 💬  
+  Open-ended conversations around design choices, architecture, or potential new directions.  
+
+---
+
+💡 **Tip:** If you’re new, start with issues labeled **good first issue** or **help wanted**. They’re scoped to be approachable and well-documented.
+
